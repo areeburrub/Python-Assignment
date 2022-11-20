@@ -1,6 +1,6 @@
-#Take a string from user
-string = input("Enter a string: ")
-#Take n from user
-n = int(input("Enter n: "))
-#Print the last n characters of the string
-print("Last", n, "characters of the string are: ", string[-n:])
+#input the string
+st = input("Please input a string \n")
+#input the n characters from the left
+n = int(input("Please input the numbers of characters from the left of the string \n"))
+#print the substring from the left
+print(f"The new string is - {st[:n]}")
